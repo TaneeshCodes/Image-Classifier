@@ -37,7 +37,7 @@ def preprocess_image(image):
 
     image_array = np.expand_dims(image_array, axis=0)
     return image_array
-
+#
 
 st.set_page_config(page_title="Dog vs Cat Classifier", layout="centered")
 
